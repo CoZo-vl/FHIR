@@ -1,0 +1,451 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "c859d4fd-47b3-44fe-bb65-ea0a5e241d81",
+  "type" : "searchset",
+  "link" : [
+    {
+      "relation" : "self",
+      "url" : "/fhir/Condition?patient:Patient.identifier=https%3A%2F%2Fwww.ehealth.fgov.be%2Fstandards%2Ffhir%2Fcore%2FNamingSystem%2Fssin%7C01051399657&_include:iterate=PractitionerRole%3Apractitioner&_include:iterate=PractitionerRole%3Aorganization&_include:iterate=Patient%3Aorganization&_include=AllergyIntolerance%3Arecorder&_include=AllergyIntolerance%3Apatient&_AMARON_tracing=true&_AMARON_tracing_payload=true"
+    },
+    {
+      "relation" : "traceTree",
+      "url" : "/fhir/trace-tree/ba916e1d-3576-4bcb-9fed-da6a080cd369"
+    }
+  ],
+  "entry" : [
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Condition/ZgpLh3P.lN1sxpn.888",
+      "resource" : {
+        "resourceType" : "Condition",
+        "id" : "ZgpLh3P.lN1sxpn.888",
+        "meta" : {
+          "versionId" : "6",
+          "lastUpdated" : "2024-05-16T09:46:59.101+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71029041#PArSFjAZ3DywpeUt",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem"
+          ]
+        },
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-condition-identifier",
+            "value" : "71029041-B-PR-Case1"
+          }
+        ],
+        "clinicalStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code" : "active",
+              "display" : "Active"
+            }
+          ]
+        },
+        "category" : [
+          {
+            "coding" : [
+              {
+                "system" : "https://fhir-ns.amaronhealthcare.com/id/local-condition-category",
+                "code" : "diagnosis"
+              }
+            ]
+          }
+        ],
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://snomed.info/sct",
+              "code" : "44054006",
+              "display" : "diabetes mellitus type 2"
+            }
+          ],
+          "text" : "diabetes mellitus type 2"
+        },
+        "bodySite" : [
+          {
+            "coding" : [
+              {
+                "system" : "http://snomed.info/sct",
+                "code" : "278001007",
+                "display" : "niet relevant"
+              }
+            ],
+            "text" : "niet relevant"
+          }
+        ],
+        "subject" : {
+          "reference" : "Patient/ZgpLh3P.lN1sxpn.82",
+          "display" : "TestShiftB Carmen"
+        },
+        "recordedDate" : "2024-04-22T00:00:00+02:00",
+        "recorder" : {
+          "reference" : "PractitionerRole/ZgpLh3P.lN1sxpn.866",
+          "display" : "AZ Sint-Lucas Gent - Wauters Anne"
+        },
+        "note" : [
+          {
+            "text" : "PR-Case 1 - opmerkingen"
+          }
+        ]
+      },
+      "search" : {
+        "mode" : "match"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Condition/ZgpLh3P.lN1sxpn.6858",
+      "resource" : {
+        "resourceType" : "Condition",
+        "id" : "ZgpLh3P.lN1sxpn.6858",
+        "meta" : {
+          "versionId" : "1",
+          "lastUpdated" : "2024-11-15T15:01:05.138+01:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71029041#DKGvOiyYWq5aVnk6",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem"
+          ]
+        },
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-condition-identifier",
+            "value" : "90188963"
+          }
+        ],
+        "clinicalStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code" : "active"
+            }
+          ]
+        },
+        "verificationStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code" : "confirmed",
+              "display" : "confirmed"
+            }
+          ]
+        },
+        "category" : [
+          {
+            "coding" : [
+              {
+                "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code" : "encounter-diagnosis",
+                "display" : "Encounter Diagnosis"
+              },
+              {
+                "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+                "code" : "diagnosis",
+                "display" : "Diagnose"
+              }
+            ]
+          }
+        ],
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/v2-SNOMED CT",
+              "code" : "44054006",
+              "display" : "diabetes mellitus type 2"
+            }
+          ],
+          "text" : "diabetes mellitus type 2"
+        },
+        "subject" : {
+          "reference" : "Patient/ZgpLh3P.lN1sxpn.82",
+          "display" : "Testshiftb Carmen"
+        },
+        "recorder" : {
+          "reference" : "PractitionerRole/ZgpLh3P.lN1sxpn.6857",
+          "display" : "AZ Sint-Lucas Gent"
+        },
+        "note" : [
+          {
+            "text" : "PR-Case 1 - opmerking"
+          }
+        ]
+      },
+      "search" : {
+        "mode" : "match"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Condition/lOHdba3.kQ0IXZI.147303",
+      "resource" : {
+        "resourceType" : "Condition",
+        "id" : "lOHdba3.kQ0IXZI.147303",
+        "meta" : {
+          "versionId" : "1",
+          "lastUpdated" : "2025-07-09T15:11:45.528+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71071306#dVL8tcs4JLcdhVMM",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem"
+          ]
+        },
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.ibis.ai/id/primuzeventid",
+            "value" : "99fc121b-4b5c-4537-88bc-bcb2cdcc5af5"
+          }
+        ],
+        "verificationStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code" : "unconfirmed",
+              "display" : "Unconfirmed"
+            }
+          ]
+        },
+        "category" : [
+          {
+            "coding" : [
+              {
+                "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+                "code" : "diagnosis",
+                "display" : "Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://snomed.info/sct",
+              "code" : "441536000",
+              "display" : "Iatrogenic pneumothorax (disorder)"
+            }
+          ],
+          "text" : "iatrogene pneumothorax"
+        },
+        "subject" : {
+          "reference" : "Patient/lOHdba3.kQ0IXZI.78340",
+          "display" : "Testshiftb Carmen"
+        },
+        "onsetDateTime" : "1998-05-01T11:14:00.000Z",
+        "recordedDate" : "1998-05-01T11:14:00.000Z",
+        "recorder" : {
+          "display" : "AZ Jan-Palfijn - Genoteerd door ongekende medewerker"
+        }
+      },
+      "search" : {
+        "mode" : "match"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Condition/lOHdba3.kQ0IXZI.147304",
+      "resource" : {
+        "resourceType" : "Condition",
+        "id" : "lOHdba3.kQ0IXZI.147304",
+        "meta" : {
+          "versionId" : "1",
+          "lastUpdated" : "2025-07-09T15:11:45.923+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71071306#2PMkiRSbwoWBUx8H",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem"
+          ]
+        },
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.ibis.ai/id/primuzeventid",
+            "value" : "f1b129a5-1b87-491e-a417-8a3c8b45b401"
+          }
+        ],
+        "verificationStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code" : "unconfirmed",
+              "display" : "Unconfirmed"
+            }
+          ]
+        },
+        "category" : [
+          {
+            "coding" : [
+              {
+                "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+                "code" : "diagnosis",
+                "display" : "Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://snomed.info/sct",
+              "code" : "59621000",
+              "display" : "Essential hypertension (disorder)"
+            }
+          ],
+          "text" : "essentiele hypertensie"
+        },
+        "subject" : {
+          "reference" : "Patient/lOHdba3.kQ0IXZI.78340",
+          "display" : "Testshiftb Carmen"
+        },
+        "onsetDateTime" : "2024-09-08T11:49:00.000Z",
+        "recordedDate" : "2024-09-08T11:49:00.000Z",
+        "recorder" : {
+          "display" : "AZ Jan-Palfijn - Genoteerd door ongekende medewerker"
+        }
+      },
+      "search" : {
+        "mode" : "match"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Condition/lOHdba3.kQ0IXZI.147305",
+      "resource" : {
+        "resourceType" : "Condition",
+        "id" : "lOHdba3.kQ0IXZI.147305",
+        "meta" : {
+          "versionId" : "1",
+          "lastUpdated" : "2025-07-09T15:11:46.331+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71071306#8126MXymcFEAP2Ag",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem"
+          ]
+        },
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.ibis.ai/id/primuzeventid",
+            "value" : "8c73f1f7-ca80-4163-a07c-2b9b80d41ee5"
+          }
+        ],
+        "verificationStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code" : "unconfirmed",
+              "display" : "Unconfirmed"
+            }
+          ]
+        },
+        "category" : [
+          {
+            "coding" : [
+              {
+                "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+                "code" : "diagnosis",
+                "display" : "Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://snomed.info/sct",
+              "code" : "80146002",
+              "display" : "Excision of appendix (procedure)"
+            }
+          ],
+          "text" : "appendectomie"
+        },
+        "subject" : {
+          "reference" : "Patient/lOHdba3.kQ0IXZI.78340",
+          "display" : "Testshiftb Carmen"
+        },
+        "onsetDateTime" : "2024-09-08T11:50:00.000Z",
+        "recordedDate" : "2024-09-08T11:50:00.000Z",
+        "recorder" : {
+          "display" : "AZ Jan-Palfijn - Genoteerd door ongekende medewerker"
+        }
+      },
+      "search" : {
+        "mode" : "match"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Condition/QvqWN4P.S2G5blq.109",
+      "resource" : {
+        "resourceType" : "Condition",
+        "id" : "QvqWN4P.S2G5blq.109",
+        "meta" : {
+          "versionId" : "4",
+          "lastUpdated" : "2024-04-19T15:19:33.121+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71067049#V0cuAzyAh2SF2hao",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem|1.0.1"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td/></tr><tr><td>Identifier: </td><td><div>104_276803003</div></td></tr><tr><td>Clinical Status: </td><td>Active</td></tr><tr><td>Verification Status: </td><td>Unconfirmed</td></tr><tr><td>Category: </td><td> Problem</td></tr><tr><td>Code: </td><td>Adenocarcinoom van slokdarm</td></tr><tr><td>Subject: </td><td><a href=\"Patient/104\">TestShiftB Carmen</a></td></tr><tr><td>Recorded Date: </td><td>19/04/2024</td></tr><tr><td>Recorder: </td><td><a href=\"Practitioner/78\">UZ Gent - HoofdArts Naam HoofdArts FirstName</a></td></tr></tbody></table></div>"
+        },
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-condition-identifier",
+            "value" : "104_276803003"
+          }
+        ],
+        "clinicalStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code" : "active",
+              "display" : "Active"
+            }
+          ]
+        },
+        "verificationStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code" : "unconfirmed"
+            }
+          ]
+        },
+        "category" : [
+          {
+            "coding" : [
+              {
+                "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-category",
+                "code" : "problem",
+                "display" : "Problem"
+              }
+            ]
+          }
+        ],
+        "code" : {
+          "coding" : [
+            {
+              "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-code",
+              "code" : "276803003",
+              "display" : "Adenocarcinoma of esophagus"
+            }
+          ],
+          "text" : "Adenocarcinoom van slokdarm"
+        },
+        "bodySite" : [
+          {
+            "coding" : [
+              {
+                "system" : "http://snomed.info/sct",
+                "code" : "32849002",
+                "display" : "Esophageal structure (body structure)"
+              }
+            ]
+          }
+        ],
+        "subject" : {
+          "reference" : "Patient/QvqWN4P.S2G5blq.104",
+          "display" : "TestShiftB Carmen"
+        },
+        "recordedDate" : "2024-04-19T11:26:00+01:00",
+        "recorder" : {
+          "reference" : "Practitioner/QvqWN4P.S2G5blq.78",
+          "display" : "UZ Gent - HoofdArts Naam HoofdArts FirstName"
+        }
+      },
+      "search" : {
+        "mode" : "match"
+      }
+    }
+  ]
+}
