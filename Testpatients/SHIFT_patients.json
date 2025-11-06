@@ -1,0 +1,18 @@
+ "Patients": [
+            {
+                "Name": "TestShiftA Ludo",
+                "INSZ": "67082799744"
+            },
+            {
+                "Name": "TestShiftB Carmen",
+                "INSZ": "01051399657"
+            },
+            {
+                "Name": "TestShiftC Frans",
+                "INSZ": "53070899722"
+            },
+            {
+                "Name": "TestShiftD Olga",
+                "INSZ": "85120999819"
+            }
+ ]
