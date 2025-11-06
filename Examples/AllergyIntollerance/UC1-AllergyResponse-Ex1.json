@@ -1,0 +1,567 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "91b25810-01d4-4dd6-83fa-7b21800af486",
+  "type" : "searchset",
+  "link" : [
+    {
+      "relation" : "self",
+      "url" : "/fhir/AllergyIntolerance?_include=AllergyIntolerance%3Apatient&_include=AllergyIntolerance%3Arecorder&_include:iterate=PractitionerRole%3Aorganization&_include:iterate=PractitionerRole%3Apractitioner&_include:iterate=Patient%3Aorganization&patient:Patient.organization:Organization.identifier=https%3A%2F%2Fwww.ehealth.fgov.be%2Fstandards%2Ffhir%2Fcore%2FNamingSystem%2Fnihdi%7C71029041&_AMARON_tracing_payload=true&patient:Patient.identifier=https%3A%2F%2Fwww.ehealth.fgov.be%2Fstandards%2Ffhir%2Fcore%2FNamingSystem%2Fssin%7C01051399657&_AMARON_tracing=true"
+    },
+    {
+      "relation" : "traceTree",
+      "url" : "/fhir/trace-tree/524d010b-2360-4c14-9d85-89c8819e4724"
+    }
+  ],
+  "entry" : [
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/AllergyIntolerance/ZgpLh3P.lN1sxpn.518",
+      "resource" : {
+        "resourceType" : "AllergyIntolerance",
+        "id" : "ZgpLh3P.lN1sxpn.518",
+        "meta" : {
+          "versionId" : "3",
+          "lastUpdated" : "2024-05-10T16:42:08.162+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71029041#NcOxd0wxzi1V01NQ",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/allergy/StructureDefinition/be-allergyintolerance"
+          ]
+        },
+        "extension" : [
+          {
+            "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/StructureDefinition/be-ext-allergy-type",
+            "valueCodeableConcept" : {
+              "coding" : [
+                {
+                  "system" : "http://snomed.info/sct",
+                  "code" : "609328004",
+                  "display" : "Allergy"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-allergyintolerance-identifier",
+            "value" : "71029041-B-AL-Case1"
+          }
+        ],
+        "clinicalStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code" : "active",
+              "display" : "Active"
+            }
+          ]
+        },
+        "verificationStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code" : "confirmed",
+              "display" : "Confirmed"
+            }
+          ]
+        },
+        "category" : [
+          "medication"
+        ],
+        "criticality" : "high",
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/v2-ATC",
+              "code" : "J01CA",
+              "display" : "Penicilline"
+            }
+          ],
+          "text" : "Allergie voor Penicilline"
+        },
+        "patient" : {
+          "reference" : "Patient/ZgpLh3P.lN1sxpn.82",
+          "display" : "TestShiftB Carmen"
+        },
+        "onsetDateTime" : "2024-05-07T00:00:00+02:00",
+        "recordedDate" : "2024-05-10T00:00:00+02:00",
+        "recorder" : {
+          "reference" : "PractitionerRole/ZgpLh3P.lN1sxpn.614",
+          "display" : "AZ Sint-Lucas Gent - Wauters Anne"
+        },
+        "lastOccurrence" : "2024-05-10T00:00:00+02:00",
+        "note" : [
+          {
+            "text" : "Voorzichtigheid is geboden bij het voorschrijven van penicilline-antibiotica, en alternatieve antibiotica moeten worden overwogen om allergische reacties te voorkomen"
+          }
+        ],
+        "reaction" : [
+          {
+            "manifestation" : [
+              {
+                "coding" : [
+                  {
+                    "system" : "http://snomed.info/sct",
+                    "code" : "699392007",
+                    "display" : "jeuk aan oor"
+                  }
+                ]
+              }
+            ],
+            "severity" : "severe"
+          }
+        ]
+      },
+      "search" : {
+        "mode" : "match"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/AllergyIntolerance/ZgpLh3P.lN1sxpn.5940",
+      "resource" : {
+        "resourceType" : "AllergyIntolerance",
+        "id" : "ZgpLh3P.lN1sxpn.5940",
+        "meta" : {
+          "versionId" : "1",
+          "lastUpdated" : "2024-10-22T17:04:58.975+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71029041#qwULI5mPM4WsC5oY",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/allergy/StructureDefinition/be-allergyintolerance"
+          ]
+        },
+        "extension" : [
+          {
+            "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/StructureDefinition/be-ext-allergy-type",
+            "valueCodeableConcept" : {
+              "coding" : [
+                {
+                  "system" : "http://snomed.info/sct",
+                  "code" : "609328004",
+                  "display" : "Allergie"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-allergyintolerance-identifier",
+            "value" : "13371959"
+          }
+        ],
+        "clinicalStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code" : "active",
+              "display" : "Active"
+            }
+          ]
+        },
+        "verificationStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code" : "confirmed",
+              "display" : "Bewezen"
+            }
+          ]
+        },
+        "category" : [
+          "medication"
+        ],
+        "criticality" : "high",
+        "code" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/v2-ATC",
+              "code" : "SNOMED/ATC concept_cki",
+              "display" : "Penicilline"
+            }
+          ],
+          "text" : "Penicilline"
+        },
+        "patient" : {
+          "reference" : "Patient/ZgpLh3P.lN1sxpn.82",
+          "display" : "Testshiftb Carmen"
+        },
+        "recorder" : {
+          "reference" : "PractitionerRole/ZgpLh3P.lN1sxpn.5939",
+          "display" : "AZ Sint-Lucas Gent - CREVITS MARIO"
+        },
+        "note" : [
+          {
+            "text" : "AL-Case 1 - opmerking"
+          }
+        ],
+        "reaction" : [
+          {
+            "manifestation" : [
+              {
+                "coding" : [
+                  {
+                    "system" : "http://snomed.info/sct",
+                    "code" : "699392007",
+                    "display" : "jeuk aan oor"
+                  }
+                ]
+              }
+            ],
+            "severity" : "severe"
+          }
+        ]
+      },
+      "search" : {
+        "mode" : "match"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Organization/ZgpLh3P.lN1sxpn.336",
+      "resource" : {
+        "resourceType" : "Organization",
+        "id" : "ZgpLh3P.lN1sxpn.336",
+        "meta" : {
+          "versionId" : "2",
+          "lastUpdated" : "2025-02-10T10:05:42.879+01:00",
+          "source" : "#O87xNs3vbLJ84v4D",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization"
+          ]
+        },
+        "identifier" : [
+          {
+            "use" : "usual",
+            "type" : {
+              "coding" : [
+                {
+                  "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code" : "NPI",
+                  "display" : "National provider identifier"
+                }
+              ]
+            },
+            "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+            "value" : "71029041"
+          }
+        ],
+        "name" : "AZ Sint-Lucas Gent",
+        "telecom" : [
+          {
+            "system" : "phone",
+            "value" : "09 224 61 11"
+          },
+          {
+            "system" : "email",
+            "value" : "info@azstlucas.be"
+          }
+        ],
+        "address" : [
+          {
+            "line" : [
+              "Groenebriel 1"
+            ],
+            "city" : "Gent",
+            "postalCode" : "9000",
+            "country" : "BEL"
+          }
+        ]
+      },
+      "search" : {
+        "mode" : "include"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Patient/ZgpLh3P.lN1sxpn.82",
+      "resource" : {
+        "resourceType" : "Patient",
+        "id" : "ZgpLh3P.lN1sxpn.82",
+        "meta" : {
+          "versionId" : "9",
+          "lastUpdated" : "2024-11-21T08:00:35.391+01:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71029041#ELX7oVB6aVT0I0d5",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"
+          ],
+          "tag" : [
+            {
+              "system" : "https://fhir-ns.amaronhealthcare.com/id/tag",
+              "code" : "PATIENT_PRESENT",
+              "display" : "The patient is present in the hospital"
+            }
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Carmen <b>TESTSHIFTB </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>0105135007</td></tr><tr><td>Address</td><td><span>Groenebriel 1 </span><br/><span>GENT </span><span>B </span></td></tr><tr><td>Date of birth</td><td><span>13 mei 2001</span></td></tr></tbody></table></div>"
+        },
+        "identifier" : [
+          {
+            "use" : "usual",
+            "type" : {
+              "coding" : [
+                {
+                  "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code" : "MR"
+                }
+              ]
+            },
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-patient-identifier",
+            "value" : "0105135007"
+          },
+          {
+            "use" : "official",
+            "type" : {
+              "coding" : [
+                {
+                  "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code" : "SB",
+                  "display" : "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin",
+            "value" : "01051399657"
+          }
+        ],
+        "active" : true,
+        "name" : [
+          {
+            "use" : "official",
+            "family" : "Testshiftb",
+            "given" : [
+              "Carmen"
+            ]
+          }
+        ],
+        "telecom" : [
+          {
+            "system" : "phone",
+            "value" : "09 224 61 11",
+            "use" : "home"
+          },
+          {
+            "system" : "email",
+            "value" : "dummy@cozo.be",
+            "use" : "home"
+          }
+        ],
+        "gender" : "female",
+        "birthDate" : "2001-05-13",
+        "deceasedBoolean" : false,
+        "address" : [
+          {
+            "use" : "home",
+            "type" : "both",
+            "text" : "Groenebriel 1, 9000 GENT (B)",
+            "line" : [
+              "Groenebriel 1"
+            ],
+            "city" : "GENT",
+            "postalCode" : "9000",
+            "country" : "B"
+          }
+        ],
+        "maritalStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code" : "U"
+            }
+          ]
+        },
+        "managingOrganization" : {
+          "reference" : "Organization/ZgpLh3P.lN1sxpn.336",
+          "display" : "AZ Sint-Lucas Gent"
+        }
+      },
+      "search" : {
+        "mode" : "include"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/PractitionerRole/ZgpLh3P.lN1sxpn.614",
+      "resource" : {
+        "resourceType" : "PractitionerRole",
+        "id" : "ZgpLh3P.lN1sxpn.614",
+        "meta" : {
+          "versionId" : "1",
+          "lastUpdated" : "2024-05-10T16:42:08.146+02:00",
+          "source" : "#oWqDfNLNIyIPGm44",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole"
+          ]
+        },
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "05423fa6-1323-4085-9dbc-fd7a212cc121"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "169808e6-b5df-42e7-88e9-a5d228307365"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "037e7529-5042-463a-90af-86bbfde72da2"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "4b56cc60-72f9-4d65-908b-778f0d8b0be1"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "b65c952b-2840-42ac-af0b-36f43adc25e8"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "10930118"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "989e2201-8829-4f11-8e3a-23fe2be9e989"
+          }
+        ],
+        "active" : true,
+        "practitioner" : {
+          "reference" : "Practitioner/ZgpLh3P.lN1sxpn.613"
+        },
+        "organization" : {
+          "reference" : "Organization/ZgpLh3P.lN1sxpn.336"
+        }
+      },
+      "search" : {
+        "mode" : "include"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Practitioner/ZgpLh3P.lN1sxpn.613",
+      "resource" : {
+        "resourceType" : "Practitioner",
+        "id" : "ZgpLh3P.lN1sxpn.613",
+        "meta" : {
+          "versionId" : "1",
+          "lastUpdated" : "2024-05-10T16:42:08.085+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71029041#tYALaDcbVidrlDhl",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner"
+          ]
+        },
+        "identifier" : [
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "05423fa6-1323-4085-9dbc-fd7a212cc121"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "169808e6-b5df-42e7-88e9-a5d228307365"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "037e7529-5042-463a-90af-86bbfde72da2"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "4b56cc60-72f9-4d65-908b-778f0d8b0be1"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "b65c952b-2840-42ac-af0b-36f43adc25e8"
+          },
+          {
+            "use" : "usual",
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "10930118"
+          },
+          {
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "989e2201-8829-4f11-8e3a-23fe2be9e989"
+          }
+        ],
+        "name" : [
+          {
+            "family" : "Wauters",
+            "given" : [
+              "Anne"
+            ]
+          }
+        ]
+      },
+      "search" : {
+        "mode" : "include"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/Practitioner/ZgpLh3P.lN1sxpn.5938",
+      "resource" : {
+        "resourceType" : "Practitioner",
+        "id" : "ZgpLh3P.lN1sxpn.5938",
+        "meta" : {
+          "versionId" : "1",
+          "lastUpdated" : "2024-10-22T17:04:58.825+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71029041#sGRtgaEuQ7LN14dC",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner"
+          ]
+        },
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "1234567891"
+          }
+        ],
+        "name" : [
+          {
+            "family" : "CREVITS",
+            "given" : [
+              "MARIO"
+            ]
+          }
+        ]
+      },
+      "search" : {
+        "mode" : "include"
+      }
+    },
+    {
+      "fullUrl" : "https://vcozofhirt.internal.uzgent.be/fhirstation-rest/api/fhir/PractitionerRole/ZgpLh3P.lN1sxpn.5939",
+      "resource" : {
+        "resourceType" : "PractitionerRole",
+        "id" : "ZgpLh3P.lN1sxpn.5939",
+        "meta" : {
+          "versionId" : "1",
+          "lastUpdated" : "2024-10-22T17:04:58.932+02:00",
+          "source" : "https://fhir-ns.amaronhealthcare.com/id/nihdi/71029041#LcbfCfPz0isitkG3",
+          "profile" : [
+            "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole"
+          ]
+        },
+        "identifier" : [
+          {
+            "system" : "https://fhir-ns.amaronhealthcare.com/id/local-practitioner-identifier",
+            "value" : "1234567891"
+          }
+        ],
+        "active" : true,
+        "practitioner" : {
+          "reference" : "Practitioner/ZgpLh3P.lN1sxpn.5938"
+        },
+        "organization" : {
+          "reference" : "Organization/ZgpLh3P.lN1sxpn.336"
+        }
+      },
+      "search" : {
+        "mode" : "include"
+      }
+    }
+  ]
+}
