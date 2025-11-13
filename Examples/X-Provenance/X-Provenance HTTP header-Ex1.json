@@ -1,0 +1,79 @@
+{
+  "resourceType": "Provenance",
+  "id": "5f88b792-7bd9-41eb-9a07-6367421d252d",
+  "target": [
+    {
+      "display": "CoZo search operation executed by an end user"
+    }
+  ],
+  "occurredDateTime": "2024-05-24T10:05:47.522+02:00",
+  "recorded": "2024-05-24T10:05:47.522+02:00",
+  "policy": [
+    "https://www.cozo.be/ehealthic"
+  ],
+  "reason": [
+    {
+      "coding": [
+        {
+          "code": "PATADMIN",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "display": "patient administration"
+        }
+      ],
+      "text": "CoZo"
+    }
+  ],
+  "agent": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+            "code": "enterer"
+          }
+        ]
+      },
+      "role": [
+        {
+          "coding": [
+            {
+              "system": "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty",
+              "code": "persphysician",
+              "display": "persphysician"
+            }
+          ],
+          "text": "persphysician"
+        }
+      ],
+      "who": {
+        "type": "Practitioner",
+        "identifier": {
+          "system": "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+          "value": " 19183630001"
+        },
+        "display": " TestGebruiker B"
+      },
+      "onBehalfOf": {
+        "type": "Organization",
+        "identifier": {
+          "system": "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+          "value": " 96666633"
+        },
+        "display": "Demo Ziekenhuis"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+            "code": "composer"
+          }
+        ]
+      },
+      "who": {
+        "display": "COZO"
+      }
+    }
+  ]
+}
