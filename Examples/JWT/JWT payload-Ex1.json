@@ -1,0 +1,30 @@
+{
+  "sub": "cozo_middleware",
+  "aud": "https://vcozofhirt.internal.uzgent.be/auth/realms/fhir-station/protocol/openid-connect/token",
+  "extensions": {
+    "ihe_iua": {
+      "subject_name": "TestGebruiker B",
+      "person_id": "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin|890530xxxxx",
+      "subject_organization": "Demo Ziekenhuis",
+      "subject_organization_id": "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi|96666633",
+      "subject_role": [
+        {
+          "system": "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty",
+          "code": "persphysician",
+          "display": "persphysician"
+        }
+      ],
+      "purpose_of_use": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code": "PATADMIN",
+          "display": "patient administration"
+        }
+      ]
+    }
+  },
+  "iss": "cozo_middleware",
+  "exp": 1716538187,
+  "iat": 1716537887,
+  "jti": "5bd454ae-b371-4d18-8f4d-b7e26c49823c"
+}
