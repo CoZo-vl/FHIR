@@ -1,6 +1,6 @@
 {
-  "jku": "https://api-acpt.ehealth.fgov.be/etee/v1/pubKeys/cacerts/jwks?identifier=96666633&type=EHP&use=sig",
-  "kid": "S3292467087047890479",
+  "jku": "https://api-acpt.ehealth.fgov.be/etee/v1/pubKeys/cacerts/jwks?identifier=ORGANISATION_ID&type=EHP&use=sig",
+  "kid": "YOUR_KEY_ID",
   "typ": "JWT",
   "alg": "RS256"
 }
