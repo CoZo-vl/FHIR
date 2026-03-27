@@ -1,0 +1,209 @@
+{
+  "resourceType": "Bundle",
+  "id": "da4085d4-f3aa-4b65-886c-f0a464166673",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "/Observation/_search"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://vfhirboxt.internal.uzgent.be/fhirstation-rest/api/fhir/Observation/QNSJkU3.366811)13)944429073d556ab1ecf05e47b88e3be1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "QNSJkU3.366811)13)944429073d556ab1ecf05e47b88e3be1",
+        "meta": {
+          "profile": [
+            "https://www.ehealth.fgov.be/standards/fhir/lab/StructureDefinition/be-observation-laboratory"
+          ]
+        },
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">empty</div>"
+        },
+        "extension": [
+          {
+            "url": "https://fhir-ns.amaronhealthcare.com/digirelab/StructureDefinition/ext-document-bundle-ref",
+            "valueReference": {
+              "reference": "Bundle/QNSJkU3.366811"
+            }
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/QNSJkU3.366811)37)860688f07f3f5215fb89cde18dc4a09b"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2"
+            }
+          ],
+          "text": "Witte bloedcellen"
+        },
+        "subject": {
+          "reference": "Patient/QNSJkU3.366811)08)578d29512167bbe45b7d9c9cd6963b99"
+        },
+        "effectiveDateTime": "2026-02-24T17:38:54+01:00",
+        "issued": "2026-02-24T17:38:54.000+01:00",
+        "valueQuantity": {
+          "value": 6,
+          "unit": "10E3/µL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*3/uL"
+        },
+        "note": [
+          {
+            "extension": [
+              {
+                "url": "https://www.ehealth.fgov.be/standards/fhir/lab/StructureDefinition/annotation-code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.ehealth.fgov.be/standards/fhir/lab/CodeSystem/be-cs-coded-annotation-types",
+                      "code": "lab-test-accreditation"
+                    }
+                  ]
+                }
+              }
+            ],
+            "text": "Accreditatie volgens BELAC-certificaat 087-MED"
+          }
+        ],
+        "specimen": {
+          "reference": "Specimen/QNSJkU3.366811)17)14bf5e88489da1bc01e52c8d75b1a2c2"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "unit": "10E3/µL",
+              "system": "http://unitsofmeasure.org",
+              "code": "10*3/uL"
+            },
+            "high": {
+              "value": 12,
+              "unit": "10E3/µL",
+              "system": "http://unitsofmeasure.org",
+              "code": "10*3/uL"
+            }
+          }
+        ],
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/QNSJkU3.366811)3D)c4ca4238a0b923820dcc509a6f75849b"
+          },
+          {
+            "reference": "Composition/QNSJkU3.366811)3C)c4ca4238a0b923820dcc509a6f75849b"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://vfhirboxt.internal.uzgent.be/fhirstation-rest/api/fhir/Observation/QNSJkU3.366723)13)7a19589461c208a2f99bc86ab78d4a5e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "QNSJkU3.366723)13)7a19589461c208a2f99bc86ab78d4a5e",
+        "meta": {
+          "profile": [
+            "https://www.ehealth.fgov.be/standards/fhir/lab/StructureDefinition/be-observation-laboratory"
+          ]
+        },
+        "text": {
+          "status": "empty",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">empty</div>"
+        },
+        "extension": [
+          {
+            "url": "https://fhir-ns.amaronhealthcare.com/digirelab/StructureDefinition/ext-document-bundle-ref",
+            "valueReference": {
+              "reference": "Bundle/QNSJkU3.366723"
+            }
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/QNSJkU3.366723)37)b044a04be4cbfa8fdfa9f5b1d37ca403"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2"
+            }
+          ],
+          "text": "Witte bloedcellen"
+        },
+        "subject": {
+          "reference": "Patient/QNSJkU3.366723)08)578d29512167bbe45b7d9c9cd6963b99"
+        },
+        "effectiveDateTime": "2026-02-24T17:41:04+01:00",
+        "issued": "2026-02-24T17:41:04.000+01:00",
+        "valueQuantity": {
+          "value": 7.2,
+          "unit": "10E3/µL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*3/uL"
+        },
+        "note": [
+          {
+            "extension": [
+              {
+                "url": "https://www.ehealth.fgov.be/standards/fhir/lab/StructureDefinition/annotation-code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.ehealth.fgov.be/standards/fhir/lab/CodeSystem/be-cs-coded-annotation-types",
+                      "code": "lab-test-accreditation"
+                    }
+                  ]
+                }
+              }
+            ],
+            "text": "Accreditatie volgens BELAC-certificaat 087-MED"
+          }
+        ],
+        "specimen": {
+          "reference": "Specimen/QNSJkU3.366723)17)f15be2106eb97b73b3a33b57db501194"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "unit": "10E3/µL",
+              "system": "http://unitsofmeasure.org",
+              "code": "10*3/uL"
+            },
+            "high": {
+              "value": 12,
+              "unit": "10E3/µL",
+              "system": "http://unitsofmeasure.org",
+              "code": "10*3/uL"
+            }
+          }
+        ],
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/QNSJkU3.366723)3D)c4ca4238a0b923820dcc509a6f75849b"
+          },
+          {
+            "reference": "Composition/QNSJkU3.366723)3C)c4ca4238a0b923820dcc509a6f75849b"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
